@@ -45,7 +45,7 @@ export const NavigationLinks = ({ className }: any) => {
             </Link>
             :
             <a
-              href={'../MohammedKarimAldenResume.pdf'}
+              href={'../IbrahimKarimEddinResume.pdf'}
               download
             >
               {link.label}
