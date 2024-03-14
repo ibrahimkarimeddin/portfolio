@@ -11,7 +11,7 @@ const LookingFor = () => {
   const { t } = useTranslation();
 
   const handleDownload = () => {
-    window.location.href = '../MohammedKarimAldenResume.pdf';
+    window.location.href = '../IbrahimKarimEddinResume.pdf';
   };
 
   return (
