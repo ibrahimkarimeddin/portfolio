@@ -77,10 +77,10 @@
     "title": "Frequently Asked Questions",
     "skill": {
       "label": "What is your best skill?",
-      "content": "My strongest skill is in React development. I have a solid foundation in React, extending to Next.js for server-side rendering, Redux for state management, and various UI frameworks like Boostrap, Ant Design (antd), and Material-UI (mui). Additionally, I'm proficient in using additional tools such as Formik for form management, react-query for data fetching, and Zustand for state management. My expertise extends to working with TypeScript for type safety in large-scale projects. Furthermore, I have experience in integrating socket communication for real-time features. On the design side, I am adept at using Photoshop, Illustrator, and Adobe XD to bring design concepts to life. I also follow design patterns, particularly the SOLID principles, to ensure scalable and maintainable code"
+      "content": "I have Strong Understand of oop topic and design pattern and good experience for problem solving and Algorithm"
     },
     "careerBackground": {
-      "label": "Can you provide an overview of your career background as a Front-End Developer",
+      "label": "Can you provide an overview of your career background as a Full Stack  Developer",
       "content": "Work As FronEnd Developer With Over two Year and half of Experience, self motivated, ambitious and hard Worker Hoping to Make my interpersonal Skill to Achieve Goals of Company"
     },
     "educationalBackground": {
@@ -88,11 +88,11 @@
       "content": "Education: Information Technology (BAIT) at Syrian Virtual University, Training / Courses: 1.Meta Advanced React, 2. Meta Front-End Developer Professional"
     },
     "remoteWork": {
-      "label": "Are you open to remote work",
-      "content": "Yes, I am open to remote work, and I also have experience working freelance"
+      "label": "Are you open to any type of  work",
+      "content": "Yes, I am open to  work  freelance  , onsite , remote"
     },
     "projects": {
-      "label": "Can you share details about some of the projects you worked on as a Front-End Developer?",
+      "label": "Can you share details about some of the projects you worked on as a Full-Stack Developer?",
       "content": [
         "(2021 - 10/2023): Developed a comprehensive Full Dashboard comprising over 40 pages for an E-commerce system.",
         "Implemented advanced user interface pages for efficient data display and editing.",
@@ -131,14 +131,14 @@
       "emailSentSuccess": "Email sent successfully!"
     }
   , "footer": {
-    "title": "Mohammed Karim Alden",
-    "description": "Work As FrontEnd Developer With Over two Years and half of Experience, self-motivated, ambitious, and hard Worker Hoping to Make my interpersonal Skill to Achieve Goals of Company",
+    "title": "Ibrhaim Karim Alden",
+    "description": "Work As FullStack  Developer With Over three Years and half of Experience, self-motivated, ambitious, and hard Worker Hoping to Make my interpersonal Skill to Achieve Goals of Company",
     "contact": {
       "title": "Contact Me",
-      "phone": "Phone: 0951968995",
-      "email": "mohammedkarimalden@gmail.com"
+      "phone": "Phone: +963951968994",
+      "email": "ibrahimkarimeddin@gmail.com"
     },
-    "rightsReserved": "@2023 All Right Reserved By KarimAldeen",
+    "rightsReserved": "@2024 All Right Reserved By IbrahimKarimAldeen",
     "privacyPolicy": "Privacy Policy",
     "cookiePolicy": "Cookie Policy"
   },

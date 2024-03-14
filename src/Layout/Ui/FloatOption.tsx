@@ -46,11 +46,11 @@ const FloatOption: React.FC = () => {
                         }
                     } size='small' />} />
             </Tooltip>
-             <Tooltip title={ currentLanguage === "en" ? "Change to Arabic" : "Change to English"} placement='rightTop'>
+             {/* <Tooltip title={ currentLanguage === "en" ? "Change to Arabic" : "Change to English"} placement='rightTop'>
                 <FloatButton onClick={()=>{
                     currentLanguage === "en" ? changeLanguage("ar")  : changeLanguage("en")
                 }} icon={<FaLanguage />} />
-            </Tooltip>
+            </Tooltip> */}
             <Tooltip title={ currentTheme !== "light" ? "Change to LightMood" : "Change to DarkMood"} placement='rightTop'>
                 <FloatButton onClick={()=>{
                     currentTheme === "light" ? changeTheme("dark")  : changeTheme("light")
