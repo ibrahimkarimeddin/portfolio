@@ -1,0 +1,154 @@
+{
+    "Ar": "Ar",
+    "En": "En",
+    "Arabic":"Arabic",
+"English":"English",
+    "Login":"Login",
+    "Welcome back, please login to your account.":"Welcome back, please login to your account.",
+    "Username":"Username",    
+    "Password":"Password",
+    "Sign in":"Sign in",
+    "Karim aldeen © 2022 | All Rights Reserved":"Karim aldeen © 2022 | All Rights Reserved",
+    "unknown":"unknown",
+"super admin":"super admin",
+"admin":"admin",
+"Home":"Home",
+"example":"example",
+"Log Out" : "Log Out" ,
+"Example":"Example",
+"Add":"Add",
+"username":"Username",
+"password":"Password",
+"name":"Name",
+"email":"Email",
+"cancel":"Cancel",
+"edit":"Edit",
+"ligth":"Light",
+"dark":"Dark",
+"delete_are_you_sure":"Delete Are You Sure",
+"no_revert":"no Revert",
+"yes_delete_it":"Yes Delete it",
+
+"hero": {
+    "name": "KARIM ALDEEN",
+    "role": "FRONT END DEVELOPER",
+    "description": "Work As FrontEnd Developer",
+    "experience": "With Over two Years and half of Experience",
+    "personalDescription": "self-motivated, ambitious, and hard Worker Hoping to Make my interpersonal Skill to Achieve Goals of Company",
+    "askedQuestions": "Asked Questions",
+    "contactMe": "Contact Me"
+  },
+
+"powerfulFeatures": {
+    "title": "POWERFUL FEATURES",
+    "skills": {
+      "react": "React",
+      "typescript": "TypeScript",
+      "alluiframeworks": "All UI Frameworks",
+      "solidprinciples": "Solid Principles",
+      "github": "GitHub",
+      "seo": "SEO",
+      "figma": "Figma",
+      "adobe": "Adobe"
+    }
+  },
+  "aboutUs": {
+    "educationTitle": "My EDUCATION",
+    "educationDescription": "After three years at my first university, I had to take a year off due to illness. Following my recovery, I chose to begin anew at a different university. Excited for a fresh start, I'm optimistic about the opportunities this change brings to my academic journey.",
+    "syrianVirtualUniversity": {
+      "title": "Syrian Virtual University",
+      "content": "Embarked on the journey of studying Information Technology (BAIT) at the Syrian Virtual University. The first year curriculum provided a foundational understanding of various aspects of IT."
+    },
+    "metaCourseAdvancedReact": {
+      "title": "Meta Course Advanced React",
+      "content": "Completed the Advanced React course offered by Meta, gaining proficiency in building sophisticated React applications and mastering advanced concepts."
+    },
+    "metaCourseFrontEndDevelopment": {
+      "title": "Meta Course Front-End Development",
+      "content": "Engaged in the Front-End Development course provided by Meta, acquiring skills in creating responsive and visually appealing user interfaces using modern front-end technologies."
+    }
+  },
+  "lookingFor": {
+    "title": "Looking For Job As FrontEnd Developer",
+    "content": "Passionate about creating seamless user experiences, I specialize in React.js development. I am eager to contribute my skills and expertise to a dynamic company that values innovation and cutting-edge technologies.",
+    "buttonText": "Take a Look at My CV"
+  },
+  "questions": {
+    "title": "Frequently Asked Questions",
+    "skill": {
+      "label": "What is your best skill?",
+      "content": "My strongest skill is in React development. I have a solid foundation in React, extending to Next.js for server-side rendering, Redux for state management, and various UI frameworks like Boostrap, Ant Design (antd), and Material-UI (mui). Additionally, I'm proficient in using additional tools such as Formik for form management, react-query for data fetching, and Zustand for state management. My expertise extends to working with TypeScript for type safety in large-scale projects. Furthermore, I have experience in integrating socket communication for real-time features. On the design side, I am adept at using Photoshop, Illustrator, and Adobe XD to bring design concepts to life. I also follow design patterns, particularly the SOLID principles, to ensure scalable and maintainable code"
+    },
+    "careerBackground": {
+      "label": "Can you provide an overview of your career background as a Front-End Developer",
+      "content": "Work As FronEnd Developer With Over two Year and half of Experience, self motivated, ambitious and hard Worker Hoping to Make my interpersonal Skill to Achieve Goals of Company"
+    },
+    "educationalBackground": {
+      "label": "What is your educational background?",
+      "content": "Education: Information Technology (BAIT) at Syrian Virtual University, Training / Courses: 1.Meta Advanced React, 2. Meta Front-End Developer Professional"
+    },
+    "remoteWork": {
+      "label": "Are you open to remote work",
+      "content": "Yes, I am open to remote work, and I also have experience working freelance"
+    },
+    "projects": {
+      "label": "Can you share details about some of the projects you worked on as a Front-End Developer?",
+      "content": [
+        "(2021 - 10/2023): Developed a comprehensive Full Dashboard comprising over 40 pages for an E-commerce system.",
+        "Implemented advanced user interface pages for efficient data display and editing.",
+        "Created a Vendor Dashboard for streamlined vendor management.",
+        "Designed and built a Landing Page with complex animations to enhance user engagement.",
+        "Successfully deployed the project to GitLab and a Linux server.",
+        "Freelancer (2020 - Present):",
+        "Qtrend:",
+        "Built a Website, E-commerce platform, and Dashboard for a software company.",
+        "Optimum:",
+        "Developed a Website and Dashboard for an oil company.",
+        "Nokbeh Alrbia:",
+        "Worked on the development of a mid-scale E-commerce platform using ReactJS.",
+        "Completed the design and creation of over 5 logos.",
+        "Crafted two Personal Portfolios showcasing diverse skills and projects.",
+        "(2020 - 03/2021):",
+        "Constructed a Dashboard for a large Delivery App.",
+        "Developed two websites, including a Landing Page and Customer Interface.",
+        "Successfully deployed the project to cPanel for seamless accessibility."
+      ]
+      
+    }
+  }
+  ,
+  
+    "contact": {
+      "title": "Contact Me",
+      "sendYourMessage": "Send your message and it will be automatically sent to my Gmail",
+      "name": "Name",
+      "enterYourName": "Enter your name",
+      "email": "Email",
+      "enterYourEmail": "Enter your email",
+      "message": "Message",
+      "typeYourMessage": "Type your message here",
+      "submit": "Submit",
+      "emailSentSuccess": "Email sent successfully!"
+    }
+  , "footer": {
+    "title": "Mohammed Karim Alden",
+    "description": "Work As FrontEnd Developer With Over two Years and half of Experience, self-motivated, ambitious, and hard Worker Hoping to Make my interpersonal Skill to Achieve Goals of Company",
+    "contact": {
+      "title": "Contact Me",
+      "phone": "Phone: 0951968995",
+      "email": "mohammedkarimalden@gmail.com"
+    },
+    "rightsReserved": "@2023 All Right Reserved By KarimAldeen",
+    "privacyPolicy": "Privacy Policy",
+    "cookiePolicy": "Cookie Policy"
+  },
+    "features": "features",
+    "education": "education",
+    "LookingFor": "LookingFor",
+    "ContactMe": "ContactMe",
+    "DownloadCv": "DownloadCv"
+
+  
+  
+
+}

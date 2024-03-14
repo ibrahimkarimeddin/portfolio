@@ -1,0 +1,283 @@
+.Header {
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: transparent;
+    @include Shadow;
+    color: var(--white);
+    height: 60px;
+    min-height: 5vw;
+    z-index: 1;
+    font-family: 'Niramit';
+    font-weight: bold;
+    z-index: 999999;
+    width: 100%;
+    padding-inline: 4%;
+    transition: .3s ease-in-out;
+
+    .Logo {
+
+        width: 200px;
+        height: 40px;
+        min-width: 12vw;
+        min-height: 3vw;
+        background-image: url('../../assets/img/KarimLogo.svg');
+        background-repeat: no-repeat;
+        background-size: contain
+        
+    }
+
+    nav {
+        @include Flex;
+        z-index: 5;
+
+        .Links {
+            margin-bottom: 0;
+            @include Flex;
+            gap: 3vw;
+
+            svg {
+                height: 45px;
+                // cursor: pointer;
+
+            }
+
+
+            li {
+                all: unset;
+                @include underLineText(var(--white), var(--white));
+                padding-bottom: 1px;
+                color: var(--subtext);
+                font-size: 1.5vw;
+
+                &:hover{
+                    color: var(--white) !important;
+
+                }
+                &:last-child {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    background: #00A7E12B;
+                    border: 2px solid var(--primary);
+                    border-radius: 30px;
+                    color: var(--primary);
+                    padding: .6vw 2vw;
+                    text-wrap: nowrap;
+                    opacity: 1;
+                    height: 20px;
+                    min-height: .6vw;
+                    margin: auto;
+                    transition: .3s ease-in-out;
+                    font-size: 1.5vw;
+
+                    text-align: center;
+
+                    &:hover {
+                        background: var(--primary);
+                        color: var(--white);
+                        transition: .3s ease-in-out;
+                        cursor: pointer;
+                    }
+                }
+
+
+            }
+
+            .active {
+                color: var(--white) !important;
+                position: relative;
+
+                &::after {
+                    content: '';
+                    position: absolute;
+                    bottom: 0;
+                    height: 2px;
+                    background-color: var(--white);
+                    width: 150%;
+                    /* Adjust the value as needed */
+                    left: -25%;
+                }
+
+                &:hover {
+                    background-size: 0% 0px !important;
+                }
+
+
+            }
+        }
+    }
+
+}
+
+:where(.css-dev-only-do-not-override-y8x9xp).ant-btn-primary{
+    background-color: var(--primary);
+}
+.MenuNav {
+    display: none;
+}
+
+.Header50px {
+    transition: .3s ease-in-out;
+    background-color: var(--white) !important;
+       
+    .Logo {
+
+        width: 200px;
+        height: 40px;
+        background-image: url('../../assets/img/KarimLogoDark.svg');
+        background-repeat: no-repeat;
+        background-size: contain
+        
+    }
+    
+        nav {
+            @include Flex;
+            z-index: 5;
+    
+            .Links {
+                margin-bottom: 0;
+                @include Flex;
+                gap: 3vw;
+        
+                li {
+                    all: unset;
+                    @include underLineText(var(--primary), var(--primary));
+                    padding-bottom: 1px;
+                    color: var(--black);
+                    opacity: .6;
+    
+                    &:hover{
+                        color: var(--black) !important;
+    
+                    }
+                    &:last-child {
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        background: #00A7E12B;
+                        border: 2px solid var(--primary);
+                        border-radius: 30px;
+                        color: var(--primary);
+                        padding: 6px 25px;
+                        text-wrap: nowrap;
+                        opacity: 1;
+                        height: 20px;
+                        margin: auto;
+                        transition: .3s ease-in-out;
+                        font-size: 14px;
+    
+                        text-align: center;
+    
+                        &:hover {
+                            background: var(--primary);
+                            color: var(--white);
+                            transition: .3s ease-in-out;
+                            cursor: pointer;
+                        }
+                    }
+    
+    
+                }
+    
+                .active {
+                    color: var(--text) !important;
+                    position: relative;
+                            opacity: 1;
+                    &::after {
+                        content: '';
+                        position: absolute;
+                        bottom: 0;
+                        height: 2px;
+                        background-color: var(--primary);
+                        width: 150%;
+                        /* Adjust the value as needed */
+                        left: -25%;
+                    }
+    
+                    &:hover {
+                        background-size: 0% 0px !important;
+                    }
+    
+    
+                }
+            }
+        }
+    
+    }
+
+
+
+@media screen and (max-width: 700px) {
+
+    .Doctors_Page .Header,
+    .Header.Scrolled {
+        background-color: transparent !important;
+        @include Shadow;
+        color: var(--text);
+
+
+    }
+
+    .MenuNav {
+        display: block;
+    }
+
+    .Links {
+        display: none !important;
+    }
+
+    .Header {
+
+        h1 {
+            font-size: 6vw;
+        }
+    }
+}
+
+
+
+.DrawerLinks {
+    margin-bottom: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 2vw;
+
+
+    svg {
+        height: 45px;
+        // cursor: pointer;
+
+    }
+
+    ul {
+        padding-left: 0 !important;
+    }
+
+    li {
+        all: unset;
+        @include underLineText(var(--primary), var(--secondary));
+        // cursor: pointer;
+        padding-bottom: 1px;
+        opacity: .6;
+        font-size: 20px;
+        padding-left: 0 !important;
+        
+
+        a {
+            &:hover {
+                color: var(--secondary) !important;
+                font-weight: bold;
+            }
+        }
+
+        &:has(.active) {
+            color: var(--secondary);
+            opacity: 1 !important;
+
+        }
+
+
+    }
+}
