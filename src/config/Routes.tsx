@@ -13,7 +13,7 @@ interface Route {
 
 export const routes: Route[] = [
   { path: "*", header: "Error Page", element: <Page404 /> },
-  { path: "/", header: "Home Page", element: <Page />, withLayout: true }
+  // { path: "/", header: "Home Page", element: <Page />, withLayout: true }
 ];
 
 export const AppRoutes: Record<string, string> = Object.fromEntries(

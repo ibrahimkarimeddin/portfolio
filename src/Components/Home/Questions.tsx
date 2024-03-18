@@ -2,14 +2,13 @@ import React from 'react';
 import type { CollapseProps } from 'antd';
 import { Collapse } from 'antd';
 import { useTranslation } from 'react-i18next';
-import { FAQS } from '../../BackEnd/FAQS';
 
 
 
 const Questions: React.FC = () => {
   const { t } = useTranslation();
 
-  const items: CollapseProps['items'] = FAQS
+  const items: CollapseProps['items'] = []
 
 
   

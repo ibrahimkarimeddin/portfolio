@@ -7,8 +7,8 @@ function NotFoundPage() {
     <div className='not_foound_page'>
         <div className='container-not-found'>
 
-        <p>404 <h6>|</h6>This page could not be found</p>
-        <div> <button onClick={()=>navigate('/' , {replace:true})}>Home</button></div>
+        <p><h6>|</h6>This WebSite are Under  the Edit </p>
+        {/* <div> <button onClick={()=>navigate('/' , {replace:true})}>Home</button></div> */}
         </div>
     </div>
   )
